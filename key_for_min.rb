@@ -3,7 +3,7 @@ def key_for_min_value(name_hash)
     return nil
   else
     n = name_hash
-    name_hash.select.with_index do |k,v,i|
+    name_hash.each do |k,v,i|
       
     end
   end
