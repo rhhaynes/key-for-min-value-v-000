@@ -6,3 +6,5 @@ def key_for_min_value(name_hash)
   name_hash.each { |k,v| key,val = k,v if val<v; binding.pry}
   key
 end
+
+key_for_min_value({harris: 8, farah: 4, mila: 10})
